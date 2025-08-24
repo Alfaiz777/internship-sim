@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import './index.css'
 import Navbar from './components/Navbar'
+import Loginpage from './pages/Loginpage'
 
 function App() {
   
@@ -15,6 +16,7 @@ function App() {
         <h1 className="text-2xl font-bold">Welcome to Internship-Sim</h1>
         <p className="mt-2 text-gray-600">Practicing React + Tailwind like a real intern 🚀</p>
       </main>
+      <Loginpage />
     </div>
   )
 }
