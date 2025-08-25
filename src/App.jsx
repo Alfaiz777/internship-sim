@@ -5,6 +5,7 @@ import './App.css'
 import './index.css'
 import Navbar from './components/Navbar'
 import Loginpage from './pages/Loginpage'
+import DashboardLayout from './components/Dashboard'
 
 function App() {
   
@@ -17,6 +18,9 @@ function App() {
         <p className="mt-2 text-gray-600">Practicing React + Tailwind like a real intern 🚀</p>
       </main>
       <Loginpage />
+      <div>
+        <DashboardLayout />
+      </div>
     </div>
   )
 }
